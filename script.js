@@ -14,6 +14,10 @@
     a.textContent = cfg.email;
   });
 
+  document.querySelectorAll(".js-tel").forEach(function (a) {
+    a.href = "tel:+" + cfg.whatsapp;
+  });
+
   document.querySelectorAll(".js-city").forEach(function (el) {
     el.textContent = cfg.city;
   });
