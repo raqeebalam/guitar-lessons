@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raqeebalam.github.io/guitar-lessons/sitemap.xml
